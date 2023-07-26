@@ -21,6 +21,14 @@
       <div class="container container-header">
         <nav class="page-nav">
           <a class="link logo" href="">Web <span class="span">Studio</span></a>
+          <button type="button" class="mobaile-meny-open js-open-menu">
+            <svg width="32" height="22" class="mobaile-meny-open-icon">
+              <use
+                class="mobaile-meny-open-icon-icon"
+                href="./images/icons.svg#icon-charm_menu-hamburger"
+              ></use>
+            </svg>
+          </button>
           <ul class="list menu">
             <li class="menu-item">
               <a class="link menu-link-studio link-link" href="./index.html"
@@ -50,6 +58,70 @@
             </li>
           </ul>
         </address>
+      </div>
+      <div class="mobail-meny container-mobail-meny js-menu-container">
+        <button class="mobail-meny-close js-close-menu">
+          <svg width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black-18"></use>
+          </svg>
+        </button>
+        <ul class="mobail-meny-list">
+          <li class="list">
+            <a class="link mobail-meny-link" href="./index.html">Studio</a>
+          </li>
+          <li class="list">
+            <a class="link mobail-meny-link" href="./portfolio.html"
+              >Portfolio</a
+            >
+          </li>
+          <li class="list">
+            <a class="link mobail-meny-link" href="#">Contacts</a>
+          </li>
+        </ul>
+        <ul class="mobail-meny-list-adress">
+          <li class="list">
+            <a class="mobail-meny-link-adress link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+          <li class="list">
+            <a
+              class="mobail-meny-link-adress link"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+        <ul class="mobail-social-list list">
+          <li class="social-list-item">
+            <a href="" class="social-list-link-footer">
+              <svg width="24" height="24" class="social-list-icon-footer">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-list-item">
+            <a href="" class="social-list-link-footer">
+              <svg width="24" height="24" class="social-list-icon-footer">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-list-item">
+            <a href="" class="social-list-link-footer">
+              <svg width="24" height="24" class="social-list-icon-footer">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-list-item">
+            <a href="" class="social-list-link-footer">
+              <svg width="24" height="24" class="social-list-icon-footer">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </header>
 
@@ -131,28 +203,46 @@
 
           <ul class="list div-section-fru">
             <li class="div-sction">
-              <img
-                src="./images/img1.jpg"
-                alt="Monitor"
-                width="360"
-                height="300"
-              />
+              <picture>
+                <source
+                  srcset="./images/img1.jpg 1x, ./images/img1@2x.jpg 2x"
+                  media="(min-width: 428px)"
+                />
+                <img
+                  src="./images/img1.jpg"
+                  alt="Monitor"
+                  width="360"
+                  height="300"
+                />
+              </picture>
             </li>
             <li class="div-sction">
-              <img
-                src="./images/Rectangle71.jpg"
-                alt="Smartphone"
-                width="360"
-                height="300"
-              />
+              <picture>
+                <source
+                  srcset="./images/img2.jpg 1x, ./images/img2@2x.jpg 2x"
+                  media="(min-width: 428px)"
+                />
+                <img
+                  src="./images/img2.jpg"
+                  alt="Smartphone"
+                  width="360"
+                  height="300"
+                />
+              </picture>
             </li>
             <li class="div-sction">
-              <img
-                src="./images/img3.jpg"
-                alt="Monitor and Smartphone"
-                width="360"
-                height="300"
-              />
+              <picture>
+                <source
+                  srcset="./images/img3.jpg 1x, ./images/img3@2x.jpg 2x"
+                  media="(min-width: 428px)"
+                />
+                <img
+                  src="./images/img3.jpg"
+                  alt="Monitor and Smartphone"
+                  width="360"
+                  height="300"
+                />
+              </picture>
             </li>
           </ul>
         </div>
@@ -164,15 +254,22 @@
 
           <ul class="list div-fo">
             <li class="foto-color">
-              <img
-                src="./images/img.jpg"
-                alt="Mark Guerrero"
-                width="264"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="./images/TCimg1.jpg 1x, ./images/TCimg1@2x.jpg 2x"
+                  media="(min-width: 428px)"
+                />
+                <img
+                  src="./images/TCimg1.jpg"
+                  alt="Mark Guerrero"
+                  width="264"
+                  height="260"
+                />
+              </picture>
+
               <div class="foto">
-                <h3 class="hhh-tu">Mark Guerrero</h3>
-                <p class="ppp-tu">Product Designer</p>
+                <h3 class="hhh-tu-foto">Mark Guerrero</h3>
+                <p class="ppp-tu-foto">Product Designer</p>
                 <ul class="social-list list">
                   <li class="social-list-item">
                     <a href="" class="social-list-link">
@@ -206,15 +303,22 @@
               </div>
             </li>
             <li class="foto-color">
-              <img
-                src="./images/img(1).jpg"
-                alt="Tom Ford"
-                width="264"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="./images/TCimg2.jpg 1x, ./images/TCimg2@2x.jpg 2x"
+                  media="(min-width: 428px)"
+                />
+                <img
+                  src="./images/TCimg2.jpg"
+                  alt="Tom Ford"
+                  width="264"
+                  height="260"
+                />
+              </picture>
+
               <div class="foto">
-                <h3 class="hhh-tu">Tom Ford</h3>
-                <p class="ppp-tu">Frontend Developer</p>
+                <h3 class="hhh-tu-foto">Tom Ford</h3>
+                <p class="ppp-tu-foto">Frontend Developer</p>
                 <ul class="social-list list">
                   <li class="social-list-item">
                     <a href="" class="social-list-link">
@@ -248,15 +352,22 @@
               </div>
             </li>
             <li class="foto-color">
-              <img
-                src="./images/img(2).jpg"
-                alt="Camila Garcia"
-                width="264"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="./images/TCimg3.jpg 1x, ./images/TCimg3@2x.jpg 2x"
+                  media="(min-width: 428px)"
+                />
+                <img
+                  src="./images/TCimg3.jpg"
+                  alt="Camila Garcia"
+                  width="264"
+                  height="260"
+                />
+              </picture>
+
               <div class="foto">
-                <h3 class="hhh-tu">Camila Garcia</h3>
-                <p class="ppp-tu">Marketing</p>
+                <h3 class="hhh-tu-foto">Camila Garcia</h3>
+                <p class="ppp-tu-foto">Marketing</p>
                 <ul class="social-list list">
                   <li class="social-list-item">
                     <a href="" class="social-list-link">
@@ -290,15 +401,22 @@
               </div>
             </li>
             <li class="foto-color">
-              <img
-                src="./images/img(3).jpg"
-                alt="Daniel Wilson"
-                width="264"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="./images/TCimg4.jpg 1x, ./images/TCimg4@2x.jpg 2x"
+                  media="(min-width: 428px)"
+                />
+                <img
+                  src="./images/TCimg4.jpg"
+                  alt="Daniel Wilson"
+                  width="264"
+                  height="260"
+                />
+              </picture>
+
               <div class="foto">
-                <h3 class="hhh-tu">Daniel Wilson</h3>
-                <p class="ppp-tu">UI Designer</p>
+                <h3 class="hhh-tu-foto">Daniel Wilson</h3>
+                <p class="ppp-tu-foto">UI Designer</p>
                 <ul class="social-list list">
                   <li class="social-list-item">
                     <a href="" class="social-list-link">
@@ -555,5 +673,12 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/mobile-menu.js"></script>
   </body>
 </html>
