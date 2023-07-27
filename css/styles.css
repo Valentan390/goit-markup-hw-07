@@ -755,6 +755,8 @@ color: var(--slate, #434455);
 }
 
 .label-checkbox {
+    display: flex;
+    align-items: center;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -1185,17 +1187,21 @@ color: var(--slate, #434455);
     margin-bottom: 0;
 }
         .section-color {
+            max-width: 1440px;
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
             padding: 188px 0;
             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office3.jpg);
+            margin-left: auto;
+            margin-right: auto;
         }
 
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .section-color {
+        
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office3@2x.jpg);
     }
 }
